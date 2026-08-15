@@ -8,15 +8,19 @@ There's another thing that shapes it: I'm a screen reader user, and I rely on th
 
 ## What I build
 
-My work sits at the intersection of three interests: making Android apps genuinely usable for everyone, understanding how they work under the hood, and shipping practical tools that solve real problems.
+My work sits at the intersection of four core interests:
 
-Most of my open-source contributions are accessibility and localization work on Android projects. I opened a PR adding full Arabic support with RTL layout to WiFi Password Manager, contributed screen reader accessibility improvements to ShizuCallRecorder, and made every button in NetLimiter describable to screen readers. I also spend time reverse engineering Android applications — decompiling APKs, analyzing Lua-based frameworks, and tracing call flows from the UI to the network layer — to understand and improve software others wrote.
-
-On the serverless side, I built yemdata: a payment-API gateway for Yemeni mobile networks deployed on Cloudflare Workers and Netlify, with keyed access, rate limiting, and a bilingual public site.
+1. **Digital Accessibility & Localization:** Making Android apps genuinely usable for screen reader users and Arabic speakers (contributed full RTL/Arabic support to *WiFi Password Manager*, accessibility enhancements to *ShizuCallRecorder*, and accessibility labels to *NetLimiter*).
+2. **AI Gateways & Integration:** Setting up, configuring, and maintaining 24/7 AI proxies on Android, integrating models from Google, Anthropic, and OpenAI, and tailoring tool-calling and reasoning pipelines.
+3. **Android Reverse Engineering:** Decompiling APKs, analyzing Lua-based frameworks, and tracing application behavior from UI to network layers using a custom Termux-based toolchain (`jadx`, `apktool`, and automation scripts).
+4. **Serverless & API Gateways:** Built *yemdata*, a payment-API gateway for Yemeni mobile networks deployed on Cloudflare Workers and Netlify with keyed access and rate limiting.
 
 ## Skills
 
-I work primarily with Kotlin and Jetpack Compose on Android, and reach for Python, Lua, Bash, and JavaScript when the task calls for them. I'm comfortable with Shizuku and ADB for privileged operations, Git and GitHub Actions for automation, and Cloudflare Workers with Netlify Functions for backends. My reverse engineering toolkit — built and refined in Termux over months — centers on jadx, apktool, and custom scripts of my own.
+- **Languages:** Kotlin, Go, Python, Lua, Bash, JavaScript.
+- **Android Development:** Jetpack Compose, Android SDK, Shizuku, ADB, Termux workflows.
+- **AI & Integrations:** OpenAI, Claude, and Gemini APIs, Tool/Function Calling configuration, Chain-of-Thought tuning.
+- **Tools & Platforms:** Git, GitHub Actions, Cloudflare Workers, Netlify Functions.
 
 ## Education
 
@@ -24,4 +28,6 @@ Student of Quranic Sciences at the College of Education, Sana'a University, wher
 
 ## Roadmap
 
-I'm currently learning ARM64 and the Android NDK to build my own native hooking libraries. Next, I plan to publish my reverse engineering toolkit as open source, then build a complete Android app from idea to store listing — and eventually write a blog documenting what it's like to study the Quran and write software at the same time.
+- [ ] Build and publish accessible tools and automation utilities for mobile environments.
+- [ ] Develop and publish a fully accessible Android application on the Play Store.
+- [ ] Share technical insights on mobile-first workflows and accessibility engineering.
