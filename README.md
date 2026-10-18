@@ -26,7 +26,7 @@ Being a blind developer who relies on various Android screen readers every day, 
 - **Edge APIs & Security:** Built *yemdata*, a high-resilience serverless proxy on Cloudflare Workers and Netlify with API key authentication, RESTful blob caching, and IP-based rate limiting.
 
 ### 4. Interactive Web Platforms
-- **Madarej Platform:** Created and launched [`interactive-exams-platform`](https://github.com/AbdulAziz-Hatem/interactive-exams-platform), a fast, zero-dependency interactive examination and self-assessment web platform for university students.
+- **Madarej Platform (منصة مدارج):** Architected and deployed an interactive, low-latency examination and self-assessment web platform for university students.
 
 ---
 
