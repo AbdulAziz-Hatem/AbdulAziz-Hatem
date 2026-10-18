@@ -11,7 +11,10 @@ Being a blind developer who relies on various Android screen readers every day, 
 ## What I Build
 
 ### 1. Digital Accessibility & Android Engineering
-- **Upstream Open-Source Contributions:** Enhanced screen reader navigation and semantics in [`ShizuCallRecorder`](https://github.com/AbdulAziz-Hatem/ShizuCallRecorder) (PR #89 merged upstream), added complete Arabic/RTL localization to [`wifi-password-manager`](https://github.com/AbdulAziz-Hatem/wifi-password-manager) (PR #31 + signed v1.15.0 releases), and built accessibility-first forks for [`NetLimiter`](https://github.com/AbdulAziz-Hatem/NetLimiter).
+- **Upstream Open-Source Contributions:**
+  - **Screen Reader Usability:** Enhanced navigation and accessibility semantics in [`ShizuCallRecorder`](https://github.com/AbdulAziz-Hatem/ShizuCallRecorder) (PR #89 merged upstream).
+  - **Comprehensive Arabic Localization:** Contributed full Arabic/RTL support to [`wifi-password-manager`](https://github.com/AbdulAziz-Hatem/wifi-password-manager) (PR #31 + signed v1.15.0 releases), and achieved 100% Arabic localization coverage for AI Writing Tools and settings in [`PixelBoard`](https://github.com/Akshayykadam/PixelBoard/pull/53) (PR #53).
+  - **Accessibility-First Forks:** Built customized accessibility patches and TalkBack content descriptions for [`NetLimiter`](https://github.com/AbdulAziz-Hatem/NetLimiter).
 - **Security & Privacy Hardening:** Maintained and enhanced [`privacify-premer`](https://github.com/AbdulAziz-Hatem/privacify-premer), adding full Arabic localization (239 strings, RTL) and building an autonomous background `Auto-Guard` protection engine with automated signed release workflows.
 
 ### 2. Android Systems, Binary Patching & Reverse Engineering
