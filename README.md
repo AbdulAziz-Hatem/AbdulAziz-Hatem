@@ -2,32 +2,53 @@
 
 ## About
 
-I'm an Android developer and a student of Quranic Sciences at Sana'a University — two worlds I refuse to keep separate. The Quran taught me that meaningful work begins with knowing who you serve, and that conviction shapes everything I build.
+I'm an Android systems developer, accessibility researcher, and senior student of Quranic Sciences at Sana'a University. My work lives at the intersection of deep mobile systems engineering, digital accessibility, and resilient cloud architectures — built entirely from the command line on Android.
 
-There's another thing that shapes it: I'm a screen reader user, and I rely on the various screen readers available on Android rather than a single one. That means I experience first-hand how most apps fail people like me — and how a little intentionality makes them work beautifully. Accessibility isn't a feature I add at the end. It's the lens I start with.
+Being a blind developer who relies on various Android screen readers every day, I don't treat accessibility as an afterthought or a compliance checkbox. It is the fundamental lens through which I inspect, build, and re-engineer software. If an interface isn't predictable, responsive, and barrier-free, it is broken by design.
 
-## What I build
+---
 
-My work sits at the intersection of four core interests:
+## What I Build
 
-1. **Digital Accessibility & Localization:** Making Android apps genuinely usable for screen reader users and Arabic speakers (contributed full RTL/Arabic support to *WiFi Password Manager*, accessibility enhancements to *ShizuCallRecorder*, and accessibility labels to *NetLimiter*).
-2. **AI Gateways & Integration:** Setting up, configuring, and maintaining 24/7 AI proxies on Android, integrating models from Google, Anthropic, and OpenAI, and tailoring tool-calling and reasoning pipelines.
-3. **Android Reverse Engineering:** Decompiling APKs, analyzing Lua-based frameworks, and tracing application behavior from UI to network layers using a custom Termux-based toolchain (`jadx`, `apktool`, and automation scripts).
-4. **Serverless & API Gateways:** Built *yemdata*, a payment-API gateway for Yemeni mobile networks deployed on Cloudflare Workers and Netlify with keyed access and rate limiting.
+### 1. Digital Accessibility & Android Engineering
+- **Upstream Open-Source Contributions:** Enhanced TalkBack navigation and semantics in [`ShizuCallRecorder`](https://github.com/AbdulAziz-Hatem/ShizuCallRecorder) (PR #89 merged upstream), added complete Arabic/RTL localization to [`wifi-password-manager`](https://github.com/AbdulAziz-Hatem/wifi-password-manager) (PR #31 + signed v1.15.0 releases), and built accessibility-first forks for [`NetLimiter`](https://github.com/AbdulAziz-Hatem/NetLimiter).
+- **Security & Privacy Hardening:** Maintained and enhanced [`privacify-premer`](https://github.com/AbdulAziz-Hatem/privacify-premer), adding full Arabic localization (239 strings, RTL) and building an autonomous background `Auto-Guard` protection engine with automated signed release workflows.
+- **Modern Voice & AI Features:** Built [`PixelBoard`](https://github.com/AbdulAziz-Hatem/PixelBoard) to port and sideload advanced on-device AI voice typing and editing tools to any Android device without root.
 
-## Skills
+### 2. Android Systems, Binary Patching & Reverse Engineering
+- **Low-Level DEX & Native Surgery:** Perform direct in-archive DEX manipulation, Smali instrumentation, and ARM64 machine-code disassembly and patching via a custom Termux/CLI toolchain (`d8`, `apkeditor`, `baksmali`, `radare2`, `patchelf`).
+- **Runtime Hardening & Screen Reader Engines:** Engineered automated patching frameworks (`Talkman Engine`) for screen reader stability, crash prevention, and null-safety injection across native libraries (`.so`) and Android bytecode.
+- **Hardware & Protocol Diagnostics:** Performed low-level Qualcomm Diag protocol audits and NV item inspections over USB OTG and Termux.
 
-- **Languages:** Kotlin, Go, Python, Lua, Bash, JavaScript.
-- **Android Development:** Jetpack Compose, Android SDK, Shizuku, ADB, Termux workflows.
-- **AI & Integrations:** OpenAI, Claude, and Gemini APIs, Tool/Function Calling configuration, Chain-of-Thought tuning.
-- **Tools & Platforms:** Git, GitHub Actions, Cloudflare Workers, Netlify Functions.
+### 3. Cloud, AI Proxies & Serverless Infrastructure
+- **24/7 AI Gateways:** Designed and deployed `AbdehGate` (`cpa-cloud-server`), an always-on Dockerized AI gateway on Northflank reverse-proxying Claude, GPT, and Gemini models with sub-second latency, WebSocket relays (`/v1/ws`), and automated CI/CD builds.
+- **Native Telegram Serverless Bots:** Engineered multi-platform content publishers (*Medad*) and network query engines (*Faseeh 4G*) running 100% on native Telegram Serverless (`tgcloud`) with SQLite databases and reactive living screens.
+- **Edge APIs & Security:** Built *yemdata*, a high-resilience serverless proxy on Cloudflare Workers and Netlify with API key authentication, RESTful blob caching, and IP-based rate limiting.
+
+### 4. Interactive Web Platforms
+- **Madarej Platform:** Created and launched [`interactive-exams-platform`](https://github.com/AbdulAziz-Hatem/interactive-exams-platform), a fast, zero-dependency interactive examination and self-assessment web platform for university students.
+
+---
+
+## Technical Toolbelt
+
+- **Languages:** Kotlin, Java, Go, Python, Lua, Bash / POSIX Shell, JavaScript, ARM64 Assembly (inspection & binary patching).
+- **Android Internals:** Jetpack Compose, Android SDK / NDK, Shizuku & ADB, Smali / DEX surgery, Termux Proot / Rootfs environments.
+- **Cloud & Automation:** Docker, Northflank, Cloudflare Workers, Netlify Functions, Telegram Cloud (`tgcloud`), GitHub Actions CI/CD.
+- **Protocols & Networking:** WebSocket Relays, Model Context Protocol (MCP), REST APIs, Reverse Proxies, Traffic Shaping.
+
+---
 
 ## Education
 
-Student of Quranic Sciences at the College of Education, Sana'a University, where my graduation project focuses on the intersection of Islamic scholarship and modern technology.
+Senior Student (Final Year) of Quranic Sciences at the Faculty of Education, Sana'a University. My studies ground my technical philosophy: disciplined inquiry, textual verification, and building tools that serve genuine human needs.
+
+---
 
 ## Roadmap
 
-- [ ] Build and publish accessible tools and automation utilities for mobile environments.
-- [ ] Develop and publish a fully accessible Android application on the Play Store.
-- [ ] Share technical insights on mobile-first workflows and accessibility engineering.
+- [x] Contribute accessibility improvements and localizations to leading open-source Android tools.
+- [x] Architect and deploy resilient 24/7 cloud AI proxy gateways and serverless engines.
+- [x] Launch web-based interactive examination platforms for university peers.
+- [ ] Publish an original, standalone open-source accessibility utility on Android.
+- [ ] Document mobile-first CLI workflows and native reverse engineering methodologies for screen reader users.
