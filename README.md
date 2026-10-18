@@ -11,9 +11,8 @@ Being a blind developer who relies on various Android screen readers every day, 
 ## What I Build
 
 ### 1. Digital Accessibility & Android Engineering
-- **Upstream Open-Source Contributions:** Enhanced TalkBack navigation and semantics in [`ShizuCallRecorder`](https://github.com/AbdulAziz-Hatem/ShizuCallRecorder) (PR #89 merged upstream), added complete Arabic/RTL localization to [`wifi-password-manager`](https://github.com/AbdulAziz-Hatem/wifi-password-manager) (PR #31 + signed v1.15.0 releases), and built accessibility-first forks for [`NetLimiter`](https://github.com/AbdulAziz-Hatem/NetLimiter).
+- **Upstream Open-Source Contributions:** Enhanced screen reader navigation and semantics in [`ShizuCallRecorder`](https://github.com/AbdulAziz-Hatem/ShizuCallRecorder) (PR #89 merged upstream), added complete Arabic/RTL localization to [`wifi-password-manager`](https://github.com/AbdulAziz-Hatem/wifi-password-manager) (PR #31 + signed v1.15.0 releases), and built accessibility-first forks for [`NetLimiter`](https://github.com/AbdulAziz-Hatem/NetLimiter).
 - **Security & Privacy Hardening:** Maintained and enhanced [`privacify-premer`](https://github.com/AbdulAziz-Hatem/privacify-premer), adding full Arabic localization (239 strings, RTL) and building an autonomous background `Auto-Guard` protection engine with automated signed release workflows.
-- **Modern Voice & AI Features:** Built [`PixelBoard`](https://github.com/AbdulAziz-Hatem/PixelBoard) to port and sideload advanced on-device AI voice typing and editing tools to any Android device without root.
 
 ### 2. Android Systems, Binary Patching & Reverse Engineering
 - **Low-Level DEX & Native Surgery:** Perform direct in-archive DEX manipulation, Smali instrumentation, and ARM64 machine-code disassembly and patching via a custom Termux/CLI toolchain (`d8`, `apkeditor`, `baksmali`, `radare2`, `patchelf`).
